@@ -5,12 +5,12 @@
 
 采用 browserify 对 locutus 进行生成浏览器端可执行 php.js 文件
 
-引入 locutus
+引入 [locutus](https://github.com/kvz/locutus)
 ```
 npm install locutus
 ```
 
-引入全局 browserify
+引入全局 [browserify](http://browserify.org/)
 ```
 npm install -g browserify
 ```
