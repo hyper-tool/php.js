@@ -23,4 +23,5 @@ browserify  construct.js -o php.js
 #### 注意事项
 
   var 类进行调整为 php_var
+  
   array 类属于保留关键字，可根据自身需要重新编译新引入名 
