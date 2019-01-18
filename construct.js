@@ -15,6 +15,6 @@ window.network = require('locutus/php/network');
 window.pcre = require('locutus/php/pcre');
 window.strings = require('locutus/php/strings');
 window.url = require('locutus/php/url');
-window.var = require('locutus/php/var');
+window.php_var = require('locutus/php/var');
 window.xdiff = require('locutus/php/xdiff');
 window.xml = require('locutus/php/xml');
