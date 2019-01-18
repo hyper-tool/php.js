@@ -22722,7 +22722,7 @@ window.network = require('locutus/php/network');
 window.pcre = require('locutus/php/pcre');
 window.strings = require('locutus/php/strings');
 window.url = require('locutus/php/url');
-window.php_var = require('locutus/php/var');
+window.var = require('locutus/php/var');
 window.xdiff = require('locutus/php/xdiff');
 window.xml = require('locutus/php/xml');
 },{"locutus/php/array":214,"locutus/php/bc":239,"locutus/php/ctype":251,"locutus/php/datetime":261,"locutus/php/exec":269,"locutus/php/filesystem":273,"locutus/php/funchand":281,"locutus/php/i18n":284,"locutus/php/info":287,"locutus/php/json":292,"locutus/php/math":320,"locutus/php/misc":343,"locutus/php/net-gopher":347,"locutus/php/network":348,"locutus/php/pcre":355,"locutus/php/strings":377,"locutus/php/url":453,"locutus/php/var":464,"locutus/php/xdiff":490,"locutus/php/xml":493}],157:[function(require,module,exports){

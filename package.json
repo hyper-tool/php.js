@@ -1,0 +1,25 @@
+{
+  "name": "php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "construct.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phptool/php.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phptool/php.js/issues"
+  },
+  "homepage": "https://github.com/phptool/php.js#readme",
+  "dependencies": {
+    "locutus": "^2.0.10"
+  }
+}
