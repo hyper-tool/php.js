@@ -16,8 +16,9 @@ npm install -g browserify
 ```
 
 修改 construct.js 文件
-
+···
 browserify  construct.js -o php.js
+···
 
 #### 注意事项
 
