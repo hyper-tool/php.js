@@ -26,3 +26,35 @@ browserify  construct.js -o php.js
 #### 注意事项
 
    var,array 类属于保留关键字，可根据自身需要重新编译新引入名 
+
+#### 使用说明
+```
+<html>
+
+<head>
+
+</head>
+
+<body>
+	<div id='content'>
+		<ul>
+			<li>
+				<code>
+						var $data = { d: 'lemon', a: 'orange', b: 'banana', c: 'apple' }
+						array.arsort($data)
+						var $result = $data
+				</code>
+				{a: "orange", d: "lemon", b: "banana", c: "apple"}
+			</li>
+		</ul>
+	</div>
+	<script src="../php.js"></script>
+	<script type="text/javascript">
+		var $data = { d: 'lemon', a: 'orange', b: 'banana', c: 'apple' }
+		array.arsort($data)
+		var $result = $data
+	</script>
+</body>
+
+</html>
+```
